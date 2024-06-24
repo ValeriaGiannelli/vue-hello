@@ -7,7 +7,8 @@ const { createApp } = Vue;
 createApp ({
     data(){
         return {
-            message : "Titolo della pagaina"
+            message : "Aurora boreale",
+            img : "https://www.canvasprintsaustralia.net.au/wp-content/uploads/2018/02/Aurora-Lights-iceland-s-copy.jpg"
         }
     }
 }).mount("#app");

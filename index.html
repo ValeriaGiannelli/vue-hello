@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
+    <!-- css -->
+     <link rel="stylesheet" href="css/style.css">
     <!-- link codice VUE -->
     <script src="https://unpkg.com/vue@3"></script>
 
@@ -11,7 +13,11 @@
 <body>
     <!-- contenitore dell'istanza VUE -->
     <div id="app">
+        <!-- mesaggio preso da data -->
         <h1>{{message}}</h1>
+
+        <!-- immagine preso da data e inserito tramite v-bind-->
+        <img :src="img" alt="">
     </div>
 
 
